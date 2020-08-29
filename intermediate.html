@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js light">
+<html lang="en" class="sidebar-visible no-js rust">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -50,7 +50,7 @@
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -76,7 +76,7 @@
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
             html.classList.remove('no-js')
-            html.classList.remove('light')
+            html.classList.remove('rust')
             html.classList.add(theme);
             html.classList.add('js');
         </script>
@@ -114,8 +114,8 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
@@ -170,6 +170,25 @@
 <li><a href="https://dabeaz-course.github.io/practical-python/Notes/Contents.html">Practical Python Programming</a> — covers foundational aspects of Python programming with an emphasis on script writing, data manipulation, and program organization</li>
 <li><a href="https://book.pythontips.com/en/latest/index.html">Intermediate Python</a> — covers debugging, generators, decorators, virtual environment, collections, comprehensions, classes, etc</li>
 <li><a href="https://www.effectivepython.com/">Effective Python</a> — insight into the Pythonic way of writing programs</li>
+</ul>
+<h2><a class="header" href="#testing" id="testing">Testing</a></h2>
+<p>Another crucial aspect in the programming journey is knowing how to write tests. In bigger projects, usually there are separate engineers (often in much larger number than code developers) to test the code. Even in those cases, writing a few sanity test cases yourself can help you develop faster knowing that the changes aren't breaking basic functionality.</p>
+<p>There's no single consensus on test methodologies. There is <a href="https://en.wikipedia.org/wiki/Unit_testing">Unit testing</a>, <a href="https://en.wikipedia.org/wiki/Integration_testing">Integration testing</a>, <a href="https://en.wikipedia.org/wiki/Test-driven_development">Test-driven development</a> and so on. Often, a combination of these is used. These days, machine learning is also being considered to reduce the testing time, see <a href="https://hacks.mozilla.org/2020/07/testing-firefox-more-efficiently-with-machine-learning/">Testing Firefox more efficiently with machine learning</a> for example.</p>
+<p>When I start a project, I usually try to write the programs incrementally. Say I need to iterate over files from a directory. I will make sure that portion is working (usually with <code>print</code> statements), then add another feature — say file reading and test that and so on. This reduces the burden of testing a large program at once at the end. And depending upon the nature of the program, I'll add a few sanity tests at the end. For example, for my <a href="https://github.com/learnbyexample/command_help">command_help</a> project, I copy pasted a few test runs of the program with different options and arguments into a separate file and wrote a program to perform these tests programmatically whenever the source code is modified.</p>
+<p>For non-trivial projects, you'll usually end up needing frameworks like built-in module <code>unittest</code> or third-party modules like <code>pytest</code>. See <a href="https://realpython.com/python-testing/">Getting started with testing in Python</a> and <a href="https://calmcode.io/pytest/introduction.html">calmcode: pytest</a> for discussion on these topics.</p>
+<h2><a class="header" href="#algorithms-and-data-structures" id="algorithms-and-data-structures">Algorithms and data structures</a></h2>
+<ul>
+<li><a href="https://runestone.academy/runestone/static/pythonds/index.html">Problem solving with algorithms and data structures</a> </li>
+<li><a href="https://github.com/tayllan/awesome-algorithms">GitHub: Awesome algorithms</a></li>
+</ul>
+<h2><a class="header" href="#design-patterns" id="design-patterns">Design patterns</a></h2>
+<ul>
+<li><a href="https://github.com/faif/python-patterns">GitHub: Collection of design patterns and idioms</a></li>
+<li><a href="https://python-patterns.guide/">Python design patterns</a>
+<ul>
+<li>inspired from <a href="https://en.wikipedia.org/wiki/Design_Patterns">Design Patterns: Elements of Reusable Object-Oriented Software</a> — also known as <strong>Gang of Four book</strong></li>
+</ul>
+</li>
 </ul>
 <h2><a class="header" href="#advanced" id="advanced">Advanced</a></h2>
 <ul>
