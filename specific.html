@@ -163,13 +163,11 @@
                 <div id="content" class="content">
                     <main>
                         <h1><a class="header" href="#specific-features" id="specific-features">Specific features</a></h1>
-<h2><a class="header" href="#lists" id="lists">Lists</a></h2>
+<h2><a class="header" href="#decorators" id="decorators">Decorators</a></h2>
 <ul>
-<li><a href="https://stackoverflow.com/questions/509211/understanding-slice-notation">stackoverflow: Slice notations and assignments</a></li>
-<li><a href="https://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/">List comprehensions explained visually</a></li>
-<li><a href="https://gist.github.com/bearfrieze/a746c6f12d8bada03589">Comprehensions in Python the Jedi way</a></li>
-<li><a href="https://stackoverflow.com/questions/2612802/list-changes-unexpectedly-after-assignment-how-do-i-clone-or-copy-it-to-prevent">stackoverflow: How to copy 1-D and multi-D lists</a></li>
-<li><a href="https://docs.python.org/3/library/collections.html">Python docs: collections</a> — container datatypes</li>
+<li><a href="https://stackoverflow.com/questions/739654/how-to-make-a-chain-of-function-decorators/1594484#1594484">stackoverflow: Decorators demystified</a></li>
+<li><a href="https://pythonconquerstheuniverse.wordpress.com/2012/04/29/python-decorators/">Python Decorators</a></li>
+<li><a href="https://wiki.python.org/moin/PythonDecoratorLibrary">Decorator library</a></li>
 </ul>
 <h2><a class="header" href="#iterables-generators-yield-itertools" id="iterables-generators-yield-itertools">Iterables, Generators, Yield, Itertools</a></h2>
 <ul>
@@ -182,11 +180,24 @@
 <li><a href="https://realpython.com/python-lambda/">How to Use Python Lambda Functions</a></li>
 <li><a href="https://pythonconquerstheuniverse.wordpress.com/2011/08/29/lambda_tutorial/">Yet Another Lambda Tutorial</a></li>
 </ul>
-<h2><a class="header" href="#decorators" id="decorators">Decorators</a></h2>
+<h2><a class="header" href="#lists" id="lists">Lists</a></h2>
 <ul>
-<li><a href="https://stackoverflow.com/questions/739654/how-to-make-a-chain-of-function-decorators/1594484#1594484">stackoverflow: Decorators demystified</a></li>
-<li><a href="https://pythonconquerstheuniverse.wordpress.com/2012/04/29/python-decorators/">Python Decorators</a></li>
-<li><a href="https://wiki.python.org/moin/PythonDecoratorLibrary">Decorator library</a></li>
+<li><a href="https://stackoverflow.com/questions/509211/understanding-slice-notation">stackoverflow: Slice notations and assignments</a></li>
+<li><a href="https://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/">List comprehensions explained visually</a></li>
+<li><a href="https://gist.github.com/bearfrieze/a746c6f12d8bada03589">Comprehensions in Python the Jedi way</a></li>
+<li><a href="https://stackoverflow.com/questions/2612802/list-changes-unexpectedly-after-assignment-how-do-i-clone-or-copy-it-to-prevent">stackoverflow: How to copy 1-D and multi-D lists</a></li>
+<li><a href="https://docs.python.org/3/library/collections.html">Python docs: collections</a> — container datatypes</li>
+</ul>
+<h2><a class="header" href="#memoization" id="memoization">Memoization</a></h2>
+<ul>
+<li><a href="https://mike.place/2016/memoization/">Memoization in Python</a></li>
+<li><a href="https://docs.python.org/3/library/functools.html#functools.lru_cache">Python docs: functools.lru_cache</a></li>
+</ul>
+<h2><a class="header" href="#profiling-code" id="profiling-code">Profiling code</a></h2>
+<ul>
+<li><a href="https://docs.python.org/3/library/profile.html">Python docs: deterministic profiling of Python programs</a></li>
+<li><a href="https://stackoverflow.com/questions/582336/how-can-you-profile-a-python-script">stackoverflow: How can you profile a Python script?</a></li>
+<li><a href="https://rushter.com/blog/numba-cython-python-optimization/">How Numba and Cython speed up Python code</a></li>
 </ul>
 <h2><a class="header" href="#regular-expressions" id="regular-expressions">Regular Expressions</a></h2>
 <ul>
@@ -194,6 +205,23 @@
 <li><a href="https://regex101.com/">regex101</a> — visual aid and online testing tool for regular expressions, select flavor as Python before use</li>
 <li><a href="https://www.debuggex.com">debuggex</a> — railroad diagrams for regular expressions, select flavor as Python before use</li>
 <li><a href="https://github.com/aloisdg/awesome-regex">Awesome Regex</a> — curated collection of libraries, tools, frameworks and software</li>
+</ul>
+<h2><a class="header" href="#virtual-environments-and-packaging" id="virtual-environments-and-packaging">Virtual Environments and Packaging</a></h2>
+<p>On newer versions of Python, I use the simple commands shown below to create a new virtual environment. This approach should work out-of-the-box, but might depend upon the OS you are using. I'm on Linux.</p>
+<pre><code class="language-bash">$ python3.8 -m venv new_project
+$ cd new_project/
+$ source bin/activate
+(new_project) $ # pip install &lt;modules&gt;
+(new_project) $ # do some scripting
+(new_project) $ deactivate
+$ # you're now out of the virtual environment
+</code></pre>
+<p>Here's some resources on this messy topic:</p>
+<ul>
+<li><a href="https://realpython.com/blog/python/python-virtual-environments-a-primer/">Python Virtual Environments: A Primer</a></li>
+<li><a href="https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe">stackoverflow: What is the difference between venv, pyvenv, pyenv, virtualenv, virtualenvwrapper, pipenv, etc?</a></li>
+<li><a href="https://stackoverflow.com/questions/1471994/what-is-setup-py">stackoverflow: What is setup.py?</a></li>
+<li><a href="https://dabeaz-course.github.io/practical-python/Notes/09_Packages/00_Overview.html">Packaging and Distribution</a></li>
 </ul>
 
                     </main>
