@@ -1,60 +1,7 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js rust">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Preface - Python resources for everybody</title>
-        
-        
-
-
-        <!-- Custom HTML head -->
-        
-
-
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="Curated list of learning resources for all sorts of Python usage">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
-
-        
-        <link rel="icon" href="favicon.svg">
-        
-        
-        <link rel="shortcut icon" href="favicon.png">
-        
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
-
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        
-        <link rel="stylesheet" href="fonts/fonts.css">
-        
-
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
-
-        <!-- Custom theme stylesheets -->
-        
-        <link rel="stylesheet" href="custom.css">
-        
-
-        
-    </head>
-    <body>
-        <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+<!DOCTYPE HTML><html lang=en class="sidebar-visible no-js rust"><head><meta charset=UTF-8><title>Preface - Python resources for everybody</title><meta content="text/html; charset=utf-8"http-equiv=Content-Type><meta name=description content="Curated list of learning resources for all sorts of Python usage"><meta name=viewport content="width=device-width, initial-scale=1"><meta name=theme-color content=#ffffff><link rel=icon href=favicon.svg><link rel="shortcut icon"href=favicon.png><link rel=stylesheet href=css/variables.css><link rel=stylesheet href=css/general.css><link rel=stylesheet href=css/chrome.css><link rel=stylesheet href=FontAwesome/css/font-awesome.css><link rel=stylesheet href=fonts/fonts.css><link rel=stylesheet href=highlight.css><link rel=stylesheet href=tomorrow-night.css><link rel=stylesheet href=ayu-highlight.css><link rel=stylesheet href=style.css><body><script>
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        </script><script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -67,10 +14,7 @@
                     localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
                 }
             } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        </script><script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -79,10 +23,7 @@
             html.classList.remove('rust')
             html.classList.add(theme);
             html.classList.add('js');
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        </script><script>
             var html = document.querySelector('html');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
@@ -91,193 +32,12 @@
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="preface.html" class="active"><strong aria-hidden="true">1.</strong> Preface</a></li><li class="chapter-item expanded "><a href="beginners.html"><strong aria-hidden="true">2.</strong> Beginners resources</a></li><li class="chapter-item expanded "><a href="specific.html"><strong aria-hidden="true">3.</strong> Specific features</a></li><li class="chapter-item expanded "><a href="intermediate.html"><strong aria-hidden="true">4.</strong> Intermediate to Advanced resources</a></li><li class="chapter-item expanded "><a href="domain.html"><strong aria-hidden="true">5.</strong> Domain specific resources</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
-                    <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                            <i class="fa fa-paint-brush"></i>
-                        </button>
-                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                        </ul>
-                        
-                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                            <i class="fa fa-search"></i>
-                        </button>
-                        
-                    </div>
-
-                    <h1 class="menu-title">Python resources for everybody</h1>
-
-                    <div class="right-buttons">
-                        
-                        <a href="https://github.com/learnbyexample/py_resources" title="Git repository" aria-label="Git repository">
-                            <i id="git-repository-button" class="fa fa-github"></i>
-                        </a>
-                        
-                    </div>
-                </div>
-
-                
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-                
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+        </script><nav id=sidebar class=sidebar aria-label="Table of contents"><div class=sidebar-scrollbox><ol class=chapter><li class="chapter-item expanded"><a href=preface.html class=active><strong aria-hidden=true>1.</strong> Preface</a><li class="chapter-item expanded"><a href=beginners.html><strong aria-hidden=true>2.</strong> Beginners resources</a><li class="chapter-item expanded"><a href=specific.html><strong aria-hidden=true>3.</strong> Specific features</a><li class="chapter-item expanded"><a href=intermediate.html><strong aria-hidden=true>4.</strong> Intermediate to Advanced resources</a><li class="chapter-item expanded"><a href=domain.html><strong aria-hidden=true>5.</strong> Domain specific resources</a></ol></div><div id=sidebar-resize-handle class=sidebar-resize-handle></div></nav><div id=page-wrapper class=page-wrapper><div class=page><div id=menu-bar-hover-placeholder></div><div id=menu-bar class="menu-bar sticky bordered"><div class=left-buttons><button id=sidebar-toggle class=icon-button type=button title="Toggle Table of Contents"aria-label="Toggle Table of Contents"aria-controls=sidebar><i class="fa fa-bars"></i></button><button id=theme-toggle class=icon-button type=button title="Change theme"aria-label="Change theme"aria-haspopup=true aria-expanded=false aria-controls=theme-list><i class="fa fa-paint-brush"></i></button><ul id=theme-list class=theme-popup aria-label=Themes role=menu><li role=none><button role=menuitem class=theme id=light>Light</button><li role=none><button role=menuitem class=theme id=rust>Rust (default)</button><li role=none><button role=menuitem class=theme id=coal>Coal</button><li role=none><button role=menuitem class=theme id=navy>Navy</button><li role=none><button role=menuitem class=theme id=ayu>Ayu</button></ul><button id=search-toggle class=icon-button type=button title="Search. (Shortkey: s)"aria-label="Toggle Searchbar"aria-expanded=false aria-keyshortcuts=S aria-controls=searchbar><i class="fa fa-search"></i></button></div><h1 class=menu-title>Python resources for everybody</h1><div class=right-buttons><a href=https://github.com/learnbyexample/py_resources title="Git repository"aria-label="Git repository"> <i id=git-repository-button class="fa fa-github"></i> </a></div></div><div id=search-wrapper class=hidden><form id=searchbar-outer class=searchbar-outer><input type=search name=search id=searchbar name=searchbar placeholder="Search this book ..."aria-controls=searchresults-outer aria-describedby=searchresults-header></form><div id=searchresults-outer class="searchresults-outer hidden"><div id=searchresults-header class=searchresults-header></div><ul id=searchresults></ul></div></div><script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
                         link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
                     });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h1><a class="header" href="#preface" id="preface">Preface</a></h1>
-<h2><a class="header" href="#about" id="about">About</a></h2>
-<p>This is a <strong>work-in-progress</strong> collection of Python <strong>learning</strong> resources created using <a href="https://github.com/rust-lang/mdBook">mdBook</a>. Many of the resources, especially the beginner ones, are free.</p>
-<p><img src="images/info.svg" alt="info" /> For a curated list of frameworks, libraries, software, etc, see <a href="https://github.com/vinta/awesome-python">awesome-python</a></p>
-<h2><a class="header" href="#img-srcimageswarningsvg-altwarning--disclaimer" id="img-srcimageswarningsvg-altwarning--disclaimer"><img src="images/warning.svg" alt="warning" /> Disclaimer</a></h2>
-<p>I don't have personal experience with majority of the resources mentioned here. I have collected them from various recommendation threads on reddit, hacker news, stackexchange sites, twitter, github, etc.</p>
-<p><a href="https://learnbyexample.github.io/py_regular_expressions/">Python re(gex)?</a> mentioned in <a href="https://learnbyexample.github.io/py_resources/specific.html#regular-expressions">Regular Expressions</a> section is my own book.</p>
-<h2><a class="header" href="#table-of-contents" id="table-of-contents">Table of Contents</a></h2>
-<ul>
-<li><a href="https://learnbyexample.github.io/py_resources/beginners.html">Beginner resources</a>
-<ul>
-<li><a href="https://learnbyexample.github.io/py_resources/beginners.html#new-to-programming">New to programming</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/beginners.html#new-to-python">New to Python</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/beginners.html#courses-with-certificates">Courses with certificates</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/beginners.html#exercises">Exercises</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/beginners.html#projects">Projects</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/beginners.html#debugging">Debugging</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/beginners.html#tools-ide-and-text-editors">Tools, IDE and Text Editors</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/beginners.html#cheatsheets">Cheatsheets</a></li>
-</ul>
-</li>
-<li><a href="https://learnbyexample.github.io/py_resources/specific.html">Specific features</a>
-<ul>
-<li><a href="https://learnbyexample.github.io/py_resources/specific.html#async">Async</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/specific.html#context-managers">Context managers</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/specific.html#decorators">Decorators</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/specific.html#iterables-generators-yield-itertools">Iterables, Generators, Yield, Itertools</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/specific.html#lambda">Lambda</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/specific.html#lists-and-comprehensions">Lists and comprehensions</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/specific.html#memoization">Memoization</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/specific.html#profiling-code-and-speeding-up-python">Profiling code and speeding up Python</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/specific.html#regular-expressions">Regular Expressions</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/specific.html#virtual-environments-and-packaging">Virtual Environments and Packaging</a></li>
-</ul>
-</li>
-<li><a href="https://learnbyexample.github.io/py_resources/intermediate.html">Intermediate to Advanced resources</a>
-<ul>
-<li><a href="https://learnbyexample.github.io/py_resources/intermediate.html#intermediate">Intermediate</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/intermediate.html#testing">Testing</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/intermediate.html#algorithms-and-data-structures">Algorithms and data structures</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/intermediate.html#design-patterns">Design patterns</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/intermediate.html#advanced">Advanced</a></li>
-</ul>
-</li>
-<li><a href="https://learnbyexample.github.io/py_resources/domain.html">Domain specific resources</a>
-<ul>
-<li><a href="https://learnbyexample.github.io/py_resources/domain.html#bioinformatics">Bioinformatics</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/domain.html#data-science">Data Science</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/domain.html#gui-and-games">GUI and Games</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/domain.html#machine-learning">Machine Learning</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/domain.html#robotics-and-computer-vision">Robotics and Computer Vision</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/domain.html#scientific-computing">Scientific computing</a></li>
-<li><a href="https://learnbyexample.github.io/py_resources/domain.html#web-development">Web development</a></li>
-</ul>
-</li>
-</ul>
-<h2><a class="header" href="#license" id="license">License</a></h2>
-<p>This work is licensed under a <a href="https://github.com/learnbyexample/py_resources/blob/master/LICENSE">Creative Commons Zero v1.0 Universal License</a></p>
-
-                    </main>
-
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        
-
-                        
-                            <a rel="next" href="beginners.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        
-
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
-
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-
-                
-                    <a rel="next" href="beginners.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                
-            </nav>
-
-        </div>
-
-        
-
-        
-
-        
-
-        
-        <script type="text/javascript">
+                </script><div id=content class=content><main><div class=sidetoc><nav class=pagetoc></nav></div><h1><a class=header href=#preface id=preface>Preface</a></h1><h2><a class=header href=#about id=about>About</a></h2><p>This is a <strong>work-in-progress</strong> collection of Python <strong>learning</strong> resources. Many of the resources, especially the beginner ones, are free.<p><img src=images/info.svg alt=info> For a curated list of frameworks, libraries, software, etc, see <a href=https://github.com/vinta/awesome-python>awesome-python</a><h2><a class=header href=#img-srcimageswarningsvg-altwarning--disclaimer id=img-srcimageswarningsvg-altwarning--disclaimer><img src=images/warning.svg alt=warning> Disclaimer</a></h2><p>I don't have personal experience with majority of the resources mentioned here. I have collected them from various recommendation threads on reddit, hacker news, stackexchange sites, twitter, github, etc.<p><a href=https://learnbyexample.github.io/py_regular_expressions/>Python re(gex)?</a> mentioned in <a href=https://learnbyexample.github.io/py_resources/specific.html#regular-expressions>Regular Expressions</a> section is my own book.<h2><a class=header href=#table-of-contents id=table-of-contents>Table of Contents</a></h2><ul><li><a href=https://learnbyexample.github.io/py_resources/beginners.html>Beginner resources</a> <ul><li><a href=https://learnbyexample.github.io/py_resources/beginners.html#new-to-programming>New to programming</a><li><a href=https://learnbyexample.github.io/py_resources/beginners.html#new-to-python>New to Python</a><li><a href=https://learnbyexample.github.io/py_resources/beginners.html#courses-with-certificates>Courses with certificates</a><li><a href=https://learnbyexample.github.io/py_resources/beginners.html#exercises>Exercises</a><li><a href=https://learnbyexample.github.io/py_resources/beginners.html#projects>Projects</a><li><a href=https://learnbyexample.github.io/py_resources/beginners.html#debugging>Debugging</a><li><a href=https://learnbyexample.github.io/py_resources/beginners.html#tools-ide-and-text-editors>Tools, IDE and Text Editors</a><li><a href=https://learnbyexample.github.io/py_resources/beginners.html#cheatsheets>Cheatsheets</a></ul><li><a href=https://learnbyexample.github.io/py_resources/specific.html>Specific features</a> <ul><li><a href=https://learnbyexample.github.io/py_resources/specific.html#async>Async</a><li><a href=https://learnbyexample.github.io/py_resources/specific.html#context-managers>Context managers</a><li><a href=https://learnbyexample.github.io/py_resources/specific.html#decorators>Decorators</a><li><a href=https://learnbyexample.github.io/py_resources/specific.html#iterables-generators-yield-itertools>Iterables, Generators, Yield, Itertools</a><li><a href=https://learnbyexample.github.io/py_resources/specific.html#lambda>Lambda</a><li><a href=https://learnbyexample.github.io/py_resources/specific.html#lists-and-comprehensions>Lists and comprehensions</a><li><a href=https://learnbyexample.github.io/py_resources/specific.html#memoization>Memoization</a><li><a href=https://learnbyexample.github.io/py_resources/specific.html#profiling-code-and-speeding-up-python>Profiling code and speeding up Python</a><li><a href=https://learnbyexample.github.io/py_resources/specific.html#regular-expressions>Regular Expressions</a><li><a href=https://learnbyexample.github.io/py_resources/specific.html#virtual-environments-and-packaging>Virtual Environments and Packaging</a></ul><li><a href=https://learnbyexample.github.io/py_resources/intermediate.html>Intermediate to Advanced resources</a> <ul><li><a href=https://learnbyexample.github.io/py_resources/intermediate.html#intermediate>Intermediate</a><li><a href=https://learnbyexample.github.io/py_resources/intermediate.html#testing>Testing</a><li><a href=https://learnbyexample.github.io/py_resources/intermediate.html#algorithms-and-data-structures>Algorithms and data structures</a><li><a href=https://learnbyexample.github.io/py_resources/intermediate.html#design-patterns>Design patterns</a><li><a href=https://learnbyexample.github.io/py_resources/intermediate.html#advanced>Advanced</a></ul><li><a href=https://learnbyexample.github.io/py_resources/domain.html>Domain specific resources</a> <ul><li><a href=https://learnbyexample.github.io/py_resources/domain.html#bioinformatics>Bioinformatics</a><li><a href=https://learnbyexample.github.io/py_resources/domain.html#data-science>Data Science</a><li><a href=https://learnbyexample.github.io/py_resources/domain.html#gui-and-games>GUI and Games</a><li><a href=https://learnbyexample.github.io/py_resources/domain.html#machine-learning>Machine Learning</a><li><a href=https://learnbyexample.github.io/py_resources/domain.html#robotics-and-computer-vision>Robotics and Computer Vision</a><li><a href=https://learnbyexample.github.io/py_resources/domain.html#scientific-computing>Scientific computing</a><li><a href=https://learnbyexample.github.io/py_resources/domain.html#web-development>Web development</a></ul></ul><h2><a class=header href=#acknowledgements id=acknowledgements>Acknowledgements</a></h2><ul><li><a href=https://github.com/rust-lang/mdBook>mdBook</a><li><a href=https://github.com/JorelAli/mdBook-pagetoc>mdBook-pagetoc</a><li><a href=https://github.com/wilsonzlin/minify-html>minify-html</a><li><a href=https://commons.wikimedia.org/wiki/File:Warning_icon.svg>Warning</a> and <a href=https://commons.wikimedia.org/wiki/File:Info_icon_002.svg>Info</a> icons by <a href=https://commons.wikimedia.org/wiki/User:Amada44>Amada44</a> under public domain<li><a href=https://inkscape.org/>Inkscape</a><li><a href=https://github.com/RazrFalcon/svgcleaner>svgcleaner</a></ul><h2><a class=header href=#license id=license>License</a></h2><p>This work is licensed under a <a href=https://github.com/learnbyexample/py_resources/blob/master/LICENSE>Creative Commons Zero v1.0 Universal License</a></main><nav class=nav-wrapper aria-label="Page navigation"><a rel=next href=beginners.html class="mobile-nav-chapters next"title="Next chapter"aria-label="Next chapter"aria-keyshortcuts=Right> <i class="fa fa-angle-right"></i> </a><div style="clear: both"></div></nav></div></div><nav class=nav-wide-wrapper aria-label="Page navigation"><a rel=next href=beginners.html class="nav-chapters next"title="Next chapter"aria-label="Next chapter"aria-keyshortcuts=Right> <i class="fa fa-angle-right"></i> </a></nav></div><script>
             window.playground_copyable = true;
-        </script>
-        
-
-        
-
-        
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
-
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
-
-        <!-- Custom JS scripts -->
-        
-
-        
-
-    </body>
-</html>
+        </script><script src=elasticlunr.min.js charset=utf-8></script><script src=mark.min.js charset=utf-8></script><script src=searcher.js charset=utf-8></script><script src=clipboard.min.js charset=utf-8></script><script src=highlight.js charset=utf-8></script><script src=book.js charset=utf-8></script><script src=sidebar.js></script>
