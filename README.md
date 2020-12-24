@@ -19,6 +19,7 @@ https://learnbyexample.github.io/py_resources/ is a **work-in-progress** collect
     * [Debugging](https://learnbyexample.github.io/py_resources/beginners.html#debugging)
     * [Tools, IDE and Text Editors](https://learnbyexample.github.io/py_resources/beginners.html#tools-ide-and-text-editors)
     * [Cheatsheets](https://learnbyexample.github.io/py_resources/beginners.html#cheatsheets)
+    * [Documentation and getting help](https://learnbyexample.github.io/py_resources/beginners.html#documentation-and-getting-help)
 * [Specific features](https://learnbyexample.github.io/py_resources/specific.html)
     * [Async](https://learnbyexample.github.io/py_resources/specific.html#async)
     * [Context managers](https://learnbyexample.github.io/py_resources/specific.html#context-managers)
@@ -41,8 +42,20 @@ https://learnbyexample.github.io/py_resources/ is a **work-in-progress** collect
     * [Data Science](https://learnbyexample.github.io/py_resources/domain.html#data-science)
     * [GUI and Games](https://learnbyexample.github.io/py_resources/domain.html#gui-and-games)
     * [Machine Learning](https://learnbyexample.github.io/py_resources/domain.html#machine-learning)
+    * [Robotics and Computer Vision](https://learnbyexample.github.io/py_resources/domain.html#robotics-and-computer-vision)
     * [Scientific computing](https://learnbyexample.github.io/py_resources/domain.html#scientific-computing)
     * [Web development](https://learnbyexample.github.io/py_resources/domain.html#web-development)
+
+<br>
+
+## Acknowledgements
+
+* [mdBook](https://github.com/rust-lang/mdBook)
+* [mdBook-pagetoc](https://github.com/JorelAli/mdBook-pagetoc)
+* [minify-html](https://github.com/wilsonzlin/minify-html)
+* [Warning](https://commons.wikimedia.org/wiki/File:Warning_icon.svg) and [Info](https://commons.wikimedia.org/wiki/File:Info_icon_002.svg) icons by [Amada44](https://commons.wikimedia.org/wiki/User:Amada44) under public domain
+* [Inkscape](https://inkscape.org/)
+* [svgcleaner](https://github.com/RazrFalcon/svgcleaner)
 
 <br>
 
