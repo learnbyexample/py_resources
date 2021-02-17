@@ -1,10 +1,10 @@
 # Python resources for everybody
 
-https://learnbyexample.github.io/py_resources/ is a **work-in-progress** collection of Python **learning** resources created using [mdBook](https://github.com/rust-lang/mdBook). Many of the resources, especially the beginner ones, are free.
+https://learnbyexample.github.io/py_resources/ is a collection of Python **learning** resources. Many of the resources, especially the beginner ones, are free.
 
 :information_source: For a curated list of frameworks, libraries, software, etc, see [awesome-python](https://github.com/vinta/awesome-python)
 
-:warning: [Python re(gex)?](https://learnbyexample.github.io/py_regular_expressions/) mentioned in [Regular Expressions](https://learnbyexample.github.io/py_resources/specific.html#regular-expressions) section is my own book.
+:warning: I don't have personal experience with majority of the resources mentioned, but have seen them recommended elsewhere. [Python re(gex)?](https://learnbyexample.github.io/py_regular_expressions/) and [100 Page Python Intro](https://learnbyexample.github.io/100_page_python_intro/) are my own books.
 
 <br>
 
@@ -22,12 +22,14 @@ https://learnbyexample.github.io/py_resources/ is a **work-in-progress** collect
     * [Documentation and getting help](https://learnbyexample.github.io/py_resources/beginners.html#documentation-and-getting-help)
 * [Specific features](https://learnbyexample.github.io/py_resources/specific.html)
     * [Async](https://learnbyexample.github.io/py_resources/specific.html#async)
+    * [Command line applications](https://learnbyexample.github.io/py_resources/specific.html#command-line-applications)
     * [Context managers](https://learnbyexample.github.io/py_resources/specific.html#context-managers)
-    * [Decorators](https://learnbyexample.github.io/py_resources/specific.html#decorators)
+    * [Decorators and closures](https://learnbyexample.github.io/py_resources/specific.html#decorators-and-closures)
     * [Iterables, Generators, Yield, Itertools](https://learnbyexample.github.io/py_resources/specific.html#iterables-generators-yield-itertools)
     * [Lambda](https://learnbyexample.github.io/py_resources/specific.html#lambda)
     * [Lists and comprehensions](https://learnbyexample.github.io/py_resources/specific.html#lists-and-comprehensions)
     * [Memoization](https://learnbyexample.github.io/py_resources/specific.html#memoization)
+    * [OS interaction](https://learnbyexample.github.io/py_resources/specific.html#os-interaction)
     * [Profiling code and speeding up Python](https://learnbyexample.github.io/py_resources/specific.html#profiling-code-and-speeding-up-python)
     * [Regular Expressions](https://learnbyexample.github.io/py_resources/specific.html#regular-expressions)
     * [Virtual Environments and Packaging](https://learnbyexample.github.io/py_resources/specific.html#virtual-environments-and-packaging)
