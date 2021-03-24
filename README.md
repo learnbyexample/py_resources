@@ -21,7 +21,7 @@ https://learnbyexample.github.io/py_resources/ is a collection of Python **learn
     * [Cheatsheets](https://learnbyexample.github.io/py_resources/beginners.html#cheatsheets)
     * [Documentation and getting help](https://learnbyexample.github.io/py_resources/beginners.html#documentation-and-getting-help)
 * [Specific features](https://learnbyexample.github.io/py_resources/specific.html)
-    * [Async](https://learnbyexample.github.io/py_resources/specific.html#async)
+    * [Async and concurrency](https://learnbyexample.github.io/py_resources/specific.html#async-and-concurrency)
     * [Command line applications](https://learnbyexample.github.io/py_resources/specific.html#command-line-applications)
     * [Context managers](https://learnbyexample.github.io/py_resources/specific.html#context-managers)
     * [Decorators and closures](https://learnbyexample.github.io/py_resources/specific.html#decorators-and-closures)
@@ -41,12 +41,17 @@ https://learnbyexample.github.io/py_resources/ is a collection of Python **learn
     * [Advanced](https://learnbyexample.github.io/py_resources/intermediate.html#advanced)
 * [Domain specific resources](https://learnbyexample.github.io/py_resources/domain.html)
     * [Bioinformatics](https://learnbyexample.github.io/py_resources/domain.html#bioinformatics)
-    * [Data Science](https://learnbyexample.github.io/py_resources/domain.html#data-science)
+    * [Data Science and Data Analysis](https://learnbyexample.github.io/py_resources/domain.html#data-science-and-data-analysis)
     * [GUI and Games](https://learnbyexample.github.io/py_resources/domain.html#gui-and-games)
     * [Machine Learning](https://learnbyexample.github.io/py_resources/domain.html#machine-learning)
     * [Robotics and Computer Vision](https://learnbyexample.github.io/py_resources/domain.html#robotics-and-computer-vision)
     * [Scientific computing](https://learnbyexample.github.io/py_resources/domain.html#scientific-computing)
     * [Web development](https://learnbyexample.github.io/py_resources/domain.html#web-development)
+* [Miscellaneous](https://learnbyexample.github.io/py_resources/miscellaneous.html)
+    * [Blogs](https://learnbyexample.github.io/py_resources/miscellaneous.html#blogs)
+    * [Podcasts](https://learnbyexample.github.io/py_resources/miscellaneous.html#podcasts)
+    * [Newsletters](https://learnbyexample.github.io/py_resources/miscellaneous.html#newsletters)
+    * [Python learning lists](https://learnbyexample.github.io/py_resources/miscellaneous.html#python-learning-lists)
 
 <br>
 
