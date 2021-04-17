@@ -30,8 +30,10 @@ https://learnbyexample.github.io/py_resources/ is a collection of Python **learn
     * [Lists and comprehensions](https://learnbyexample.github.io/py_resources/specific.html#lists-and-comprehensions)
     * [Memoization](https://learnbyexample.github.io/py_resources/specific.html#memoization)
     * [OS interaction](https://learnbyexample.github.io/py_resources/specific.html#os-interaction)
+    * [Pattern matching](https://learnbyexample.github.io/py_resources/specific.html#pattern-matching)
     * [Profiling code and speeding up Python](https://learnbyexample.github.io/py_resources/specific.html#profiling-code-and-speeding-up-python)
     * [Regular Expressions](https://learnbyexample.github.io/py_resources/specific.html#regular-expressions)
+    * [Type annotations](https://learnbyexample.github.io/py_resources/specific.html#type-annotations)
     * [Virtual Environments and Packaging](https://learnbyexample.github.io/py_resources/specific.html#virtual-environments-and-packaging)
 * [Intermediate to Advanced resources](https://learnbyexample.github.io/py_resources/intermediate.html)
     * [Intermediate](https://learnbyexample.github.io/py_resources/intermediate.html#intermediate)
@@ -49,23 +51,25 @@ https://learnbyexample.github.io/py_resources/ is a collection of Python **learn
     * [Web development](https://learnbyexample.github.io/py_resources/domain.html#web-development)
 * [Miscellaneous](https://learnbyexample.github.io/py_resources/miscellaneous.html)
     * [Blogs](https://learnbyexample.github.io/py_resources/miscellaneous.html#blogs)
+    * [Modules and applications](https://learnbyexample.github.io/py_resources/miscellaneous.html#modules-and-applications)
     * [Podcasts](https://learnbyexample.github.io/py_resources/miscellaneous.html#podcasts)
-    * [Newsletters](https://learnbyexample.github.io/py_resources/miscellaneous.html#newsletters)
     * [Python learning lists](https://learnbyexample.github.io/py_resources/miscellaneous.html#python-learning-lists)
+    * [Newsletters](https://learnbyexample.github.io/py_resources/miscellaneous.html#newsletters)
 
 <br>
 
 ## Acknowledgements
 
-* [mdBook](https://github.com/rust-lang/mdBook)
-* [mdBook-pagetoc](https://github.com/JorelAli/mdBook-pagetoc)
-* [minify-html](https://github.com/wilsonzlin/minify-html)
+* [mdBook](https://github.com/rust-lang/mdBook) — for converting markdown to web version
+* [mdBook-pagetoc](https://github.com/JorelAli/mdBook-pagetoc) — for adding table of contents
+* [minify-html](https://github.com/wilsonzlin/minify-html) — for minifying html files
 * [Warning](https://commons.wikimedia.org/wiki/File:Warning_icon.svg) and [Info](https://commons.wikimedia.org/wiki/File:Info_icon_002.svg) icons by [Amada44](https://commons.wikimedia.org/wiki/User:Amada44) under public domain
-* [Inkscape](https://inkscape.org/)
-* [svgcleaner](https://github.com/RazrFalcon/svgcleaner)
+* [Inkscape](https://inkscape.org/) — favicon
+* [svgcleaner](https://github.com/RazrFalcon/svgcleaner) — for optimizing images
 
 <br>
 
 ## License
 
 This work is licensed under a [Creative Commons Zero v1.0 Universal License](https://github.com/learnbyexample/py_resources/blob/master/LICENSE)
+
