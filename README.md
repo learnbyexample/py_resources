@@ -4,7 +4,7 @@ https://learnbyexample.github.io/py_resources/ is a collection of Python **learn
 
 :information_source: For a curated list of frameworks, libraries, software, etc, see [awesome-python](https://github.com/vinta/awesome-python)
 
-:warning: I don't have personal experience with majority of the resources mentioned, but have seen them recommended elsewhere. [Python re(gex)?](https://learnbyexample.github.io/py_regular_expressions/) and [100 Page Python Intro](https://learnbyexample.github.io/100_page_python_intro/) are my own books.
+:warning: I don't have personal experience with majority of the resources mentioned, but have seen them recommended elsewhere. [Python re(gex)?](https://github.com/learnbyexample/py_regular_expressions), [100 Page Python Intro](https://github.com/learnbyexample/100_page_python_intro) and [Practice Python Projects](https://github.com/learnbyexample/practice_python_projects) are my own books.
 
 <br>
 
