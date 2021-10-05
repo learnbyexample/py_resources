@@ -37,6 +37,7 @@ https://learnbyexample.github.io/py_resources/ is a collection of Python **learn
     * [Virtual Environments and Packaging](https://learnbyexample.github.io/py_resources/specific.html#virtual-environments-and-packaging)
 * [Intermediate to Advanced resources](https://learnbyexample.github.io/py_resources/intermediate.html)
     * [Intermediate](https://learnbyexample.github.io/py_resources/intermediate.html#intermediate)
+    * [Python talks](https://learnbyexample.github.io/py_resources/intermediate.html#python-talks)
     * [Testing](https://learnbyexample.github.io/py_resources/intermediate.html#testing)
     * [Algorithms and data structures](https://learnbyexample.github.io/py_resources/intermediate.html#algorithms-and-data-structures)
     * [Design patterns](https://learnbyexample.github.io/py_resources/intermediate.html#design-patterns)
@@ -52,9 +53,9 @@ https://learnbyexample.github.io/py_resources/ is a collection of Python **learn
 * [Miscellaneous](https://learnbyexample.github.io/py_resources/miscellaneous.html)
     * [Blogs](https://learnbyexample.github.io/py_resources/miscellaneous.html#blogs)
     * [Modules and applications](https://learnbyexample.github.io/py_resources/miscellaneous.html#modules-and-applications)
+    * [Newsletters](https://learnbyexample.github.io/py_resources/miscellaneous.html#newsletters)
     * [Podcasts](https://learnbyexample.github.io/py_resources/miscellaneous.html#podcasts)
     * [Python learning lists](https://learnbyexample.github.io/py_resources/miscellaneous.html#python-learning-lists)
-    * [Newsletters](https://learnbyexample.github.io/py_resources/miscellaneous.html#newsletters)
 
 <br>
 
