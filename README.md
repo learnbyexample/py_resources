@@ -21,6 +21,7 @@ https://learnbyexample.github.io/py_resources/ is a collection of Python **learn
     * [Cheatsheets](https://learnbyexample.github.io/py_resources/beginners.html#cheatsheets)
     * [Documentation and getting help](https://learnbyexample.github.io/py_resources/beginners.html#documentation-and-getting-help)
 * [Specific features](https://learnbyexample.github.io/py_resources/specific.html)
+    * [Abstract Syntax Trees](https://learnbyexample.github.io/py_resources/specific.html#abstract-syntax-trees)
     * [Async and concurrency](https://learnbyexample.github.io/py_resources/specific.html#async-and-concurrency)
     * [Command line applications](https://learnbyexample.github.io/py_resources/specific.html#command-line-applications)
     * [Context managers](https://learnbyexample.github.io/py_resources/specific.html#context-managers)
