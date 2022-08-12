@@ -37,6 +37,7 @@ https://learnbyexample.github.io/py_resources/ is a collection of Python **learn
     * [Profiling code and speeding up Python](https://learnbyexample.github.io/py_resources/specific.html#profiling-code-and-speeding-up-python)
     * [Regular Expressions](https://learnbyexample.github.io/py_resources/specific.html#regular-expressions)
     * [Socket Programming](https://learnbyexample.github.io/py_resources/specific.html#socket-programming)
+    * [Standard library](https://learnbyexample.github.io/py_resources/specific.html#standard-library)
     * [Type annotations](https://learnbyexample.github.io/py_resources/specific.html#type-annotations)
     * [Virtual Environments and Packaging](https://learnbyexample.github.io/py_resources/specific.html#virtual-environments-and-packaging)
 * [Intermediate to Advanced resources](https://learnbyexample.github.io/py_resources/intermediate.html)
@@ -54,7 +55,7 @@ https://learnbyexample.github.io/py_resources/ is a collection of Python **learn
     * [Robotics and Computer Vision](https://learnbyexample.github.io/py_resources/domain.html#robotics-and-computer-vision)
     * [Scientific computing](https://learnbyexample.github.io/py_resources/domain.html#scientific-computing)
     * [Web development](https://learnbyexample.github.io/py_resources/domain.html#web-development)
-    * [Miscellaneous](https://learnbyexample.github.io/py_resources/domain.html#miscellaneous)
+    * [Miscellaneous domains](https://learnbyexample.github.io/py_resources/domain.html#miscellaneous-domains)
 * [Miscellaneous](https://learnbyexample.github.io/py_resources/miscellaneous.html)
     * [Blogs](https://learnbyexample.github.io/py_resources/miscellaneous.html#blogs)
     * [Modules and applications](https://learnbyexample.github.io/py_resources/miscellaneous.html#modules-and-applications)
@@ -72,7 +73,7 @@ https://learnbyexample.github.io/py_resources/ is a collection of Python **learn
 * [Warning](https://commons.wikimedia.org/wiki/File:Warning_icon.svg) and [Info](https://commons.wikimedia.org/wiki/File:Info_icon_002.svg) icons by [Amada44](https://commons.wikimedia.org/wiki/User:Amada44) under public domain
 * [Inkscape](https://inkscape.org/) — favicon
 * [canva](https://www.canva.com/) — poster
-* [oxipng](https://github.com/shssoichiro/oxipng), [svgcleaner](https://github.com/RazrFalcon/svgcleaner) — for optimizing images
+* [pngquant](https://pngquant.org/), [svgcleaner](https://github.com/RazrFalcon/svgcleaner) — for optimizing images
 
 <br>
 
