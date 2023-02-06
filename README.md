@@ -4,7 +4,7 @@ https://learnbyexample.github.io/py_resources/ is a collection of Python **learn
 
 :information_source: For a curated list of frameworks, libraries, software, etc, see [awesome-python](https://github.com/vinta/awesome-python)
 
-:warning: I don't have personal experience with majority of the resources mentioned, but have seen them recommended elsewhere. [Python re(gex)?](https://github.com/learnbyexample/py_regular_expressions), [100 Page Python Intro](https://github.com/learnbyexample/100_page_python_intro) and [Practice Python Projects](https://github.com/learnbyexample/practice_python_projects) are my own books.
+:warning: I don't have personal experience with majority of the resources mentioned, but have seen them recommended elsewhere. [Understanding Python re(gex)?](https://github.com/learnbyexample/py_regular_expressions), [100 Page Python Intro](https://github.com/learnbyexample/100_page_python_intro) and [Practice Python Projects](https://github.com/learnbyexample/practice_python_projects) are my own books.
 
 <br>
 
@@ -35,11 +35,12 @@ https://learnbyexample.github.io/py_resources/ is a collection of Python **learn
     * [OS interaction](https://learnbyexample.github.io/py_resources/specific.html#os-interaction)
     * [Pattern matching](https://learnbyexample.github.io/py_resources/specific.html#pattern-matching)
     * [Profiling code and speeding up Python](https://learnbyexample.github.io/py_resources/specific.html#profiling-code-and-speeding-up-python)
+    * [Python Packaging](https://learnbyexample.github.io/py_resources/specific.html#python-packaging)
     * [Regular Expressions](https://learnbyexample.github.io/py_resources/specific.html#regular-expressions)
     * [Socket Programming](https://learnbyexample.github.io/py_resources/specific.html#socket-programming)
     * [Standard library](https://learnbyexample.github.io/py_resources/specific.html#standard-library)
     * [Type annotations](https://learnbyexample.github.io/py_resources/specific.html#type-annotations)
-    * [Virtual Environments and Packaging](https://learnbyexample.github.io/py_resources/specific.html#virtual-environments-and-packaging)
+    * [Virtual Environments](https://learnbyexample.github.io/py_resources/specific.html#virtual-environments)
 * [Intermediate to Advanced resources](https://learnbyexample.github.io/py_resources/intermediate.html)
     * [Intermediate](https://learnbyexample.github.io/py_resources/intermediate.html#intermediate)
     * [Python talks](https://learnbyexample.github.io/py_resources/intermediate.html#python-talks)
@@ -80,4 +81,3 @@ https://learnbyexample.github.io/py_resources/ is a collection of Python **learn
 ## License
 
 This work is licensed under a [Creative Commons Zero v1.0 Universal License](https://github.com/learnbyexample/py_resources/blob/master/LICENSE)
-
